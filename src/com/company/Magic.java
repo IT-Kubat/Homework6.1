@@ -16,4 +16,10 @@ public class Magic extends Player {
     public void setAttackType(String attackType) {
         this.attackType = attackType;
     }
+
+    @Override
+    public void Drawable() {
+        System.out.println("✨");
+
+    }
 }

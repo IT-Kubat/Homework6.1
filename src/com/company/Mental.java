@@ -15,4 +15,9 @@ public class Mental extends Player {
     public void setManTreat(int manTreat) {
         this.manTreat = manTreat;
     }
+
+    @Override
+    public void Drawable() {
+        System.out.println("\uD83E\uDDE0");
+    }
 }

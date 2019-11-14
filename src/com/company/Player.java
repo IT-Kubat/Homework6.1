@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Player {
+public abstract class Player implements superAbility{
     private int health;
     private String damage;
 

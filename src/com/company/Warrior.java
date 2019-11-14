@@ -15,4 +15,9 @@ public class Warrior extends Player {
     public void setHitType(int hitType) {
         this.hitType = hitType;
     }
+
+    @Override
+    public void Drawable() {
+        System.out.println("⚔");
+    }
 }
